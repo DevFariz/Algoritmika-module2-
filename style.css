@@ -13,6 +13,10 @@ body{
     justify-content: center;
 }
 
+ul, li{
+    list-style: none;
+}
+
 .wrapper{
     width: 336px;
     border: 1px solid #C4C4C4;
@@ -56,15 +60,41 @@ body{
     fill: rgba(0, 0, 0, 1); 
 }
 
-.inp-block{
+.tasks{
+    border: 1px solid #C4C4C4;
+    margin: 0 22px 18px 28px;
+    border-radius: 10px;
+    padding: 10px 29px;
+}
+
+.task{
+    position: relative;
+    height: 20px;
+}
+
+.task p{
+    font-size: 14px;
+}
+
+.clear{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+/* .inp-block{
     position: relative;
     margin: 0 22px 18px 28px;
 }
 
 .inp{
     width: 100%;
-    outline: none;
     border: 1px solid #C4C4C4;
+    outline: none;
     border-radius: 10px;
     padding: 11px;
 }
@@ -76,7 +106,7 @@ body{
     border: none;
     background-color: transparent;
     cursor: pointer;
-}
+} */
 
 .clear-sv{
     fill: #fff;
@@ -86,6 +116,17 @@ body{
 .clear-sv:hover{
     fill: rgba(131, 58, 224, 1);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .add{
     position: relative;
